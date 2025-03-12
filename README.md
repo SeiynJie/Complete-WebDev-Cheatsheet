@@ -47,17 +47,28 @@ For getting inspiration, I mainly use:
 - [designresourc.es](https://designresourc.es/)
 - [viewport-ui.design](https://viewport-ui.design/)
 
+Here are a number of more specific design resources:
+- [Free Placeholder Logos](https://logoipsum.com/)
+- [Free High Quality Fonts](https://www.fontshare.com/)
+- [More Free High Quality Fonts](https://www.freefaces.gallery/)
+- [Inspiration With Free Fonts](https://www.awwwards.com/awwwards/collections/free-fonts/)
+- [Font Inspiration](https://fontsinuse.com/)
+- [Realtime Colors](https://www.realtimecolors.com/)
+- [TailwindCSS Box Shadows](https://ui.aceternity.com/tools/box-shadows)
+- [SVG Pattern Generation](https://www.fffuel.co/)
+
 ---
 
 ## 2. Initializing Project
 When initializing your project, you must choose properly the framework you will use (or if you will use any). Here are a few popular frameworks and why you should choose them:
 
+- [React](https://reactjs.org/) (Simple, lightweight, with great demand and a large ecosystem)
 - [Next.js](https://nextjs.org/) (Server-Side Rendering, great for SEO, Static page generation, API routes, & more)
-- [Gatsby](https://www.gatsbyjs.com/) (Site generation, Fast page loads, 100/100 lighthouse score)
-- [Vanilla React](https://reactjs.org/) (Comprehensive, simple, and great demand)
+- [Angular](https://angular.io/) (Enterprise-grade framework, batteries included, scales well for large projects)
 - [Vue.js](https://vuejs.org/) (Progressive & flexible, great ecosystem)
-- [Svelte](https://svelte.dev/) (Fast, simple, & performant)
-- [Angular](https://angular.io/) (Enterprise-grade framework)
+- [Svelte](https://svelte.dev/) (Fast, simple, performant, although APIs have changed a bit from version to version)
+- [Solid](https://www.solidjs.com/) (Performant signal based framework with easy to understand primatives. Similar DX to React)
+- [Gatsby](https://www.gatsbyjs.com/) (Site generation, Fast page loads, 100/100 lighthouse score)
 
 **There isn't a wrong framework** to choose but there is indeed a better one for each of the projects you will do. One may be better than the other for a specific project.
 
@@ -78,19 +89,34 @@ This is crucial when initializing because adding routing will be a pain in the f
 Again, refer to the documentation of the framework you choose on how to add routing.
 
 ### Styling 
-This is where [Tailwind CSS](https://tailwindcss.com/) comes in. It allows you to write more concise code and is very customizable. 
+There are a number of styling options available, teams normally pick some flavor of CSS, SCSS, or TailwindCSS.
 
-You can do plain CSS but Tailwind CSS is much faster and easier to use. **This whole "guide" is going to be implementing Tailwind CSS so for the plain CSS peeps, start learning Tailwind CSS.**
+If you're new to web development, getting an understanding of vanilla CSS will help you more appreciate the abstractions that SCSS and TailwindCSS bring.
+
+[Tailwind CSS](https://tailwindcss.com/) allows teams to easily implement design systems, while providing a consistent developer experience (DX) that scales well for large projects. Rather than digging around in a number of different files to find where your styles are implemented, you have an easy 1:1 experience of finding the exact styling that is affecting your template.
+
+It's important to know that TailwindCSS works best when your project is componentized. If you are repeating the same TailwindCSS code over and over again, you likely need
+more componentization, or a new utility class to avoid repetition.
+
+**This whole "guide" is going to focus on Tailwind CSS Implementations.**
 
 #### `Why should I use Tailwind?`
-- Faster development
-    - No need for a separate `.css` file, you can write styles directly in your HTML 
-- Easier navigation
-    - Since you don't need a `.css` anymore, it's easier to navigate and see the styles you have. No need to open a separate file.
-- Customizable
-    - You can customize the Tailwind config file to add your own custom styles.
-- Industry Standard
-    - Tailwind is the industry standard for styling in web development. Sooner or later, you will need to use it.
+- Avoiding Unnecessary Seperation of Concerns 
+    - Seperation of concerns is a common principle, but rendering templates requires both HTML and styling. Having both under your fingers enhances productivity. 
+- Scalable Navigation
+    - You longer have to learn the architecture and style guide for every CSS project you are on. You have a consistent pattern that allows you to always know where your styles are located.
+- Design System Implementation
+    - You can easily implement a consistent design system with the Tailwind config file. This includes fonts, colors, cards, inputs, etc
+- Dev Tooling
+    - You can setup linting to enforce TailwindCSS styles to be in a certain order, creating a consistent shape for your styles
+
+#### `Why shouldn't I use Tailwind`
+- Legacy code
+    - Convincing a team or large project to start using TailwindCSS will be an uphill battle.
+- Non Componentized Code
+    - If you are working on a large vanilla JS project that is not heavily componentized, css classes will scale better.
+- Small Lightweight Projects
+    - If your project is small enough, vanilla CSS will likely scale just fine
 
 #### CheatSheet 
 Here's a cheatsheet a use a lot when using tailwind: https://nerdcave.com/tailwind-cheat-sheet
