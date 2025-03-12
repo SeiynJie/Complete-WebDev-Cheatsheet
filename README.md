@@ -11,7 +11,7 @@ It's split into a few parts (step-by-step):
 - Deployment 
 
 ## How to participate:
-Just start your comment with whatever part it is from and the tip you wanna give. After reviewing, I will add it to the github page.
+Just start your comment with whatever part it is from and the tip you wanna give. After reviewing, I will add it to the GitHub page.
 
 Example:
 ```
@@ -19,7 +19,7 @@ Animations
 
 Use framer motion ...
 ```
-### Or you can submit a pull request in github.
+### Or you can submit a pull request in GitHub.
 
 Here's how to: 
 - [How to make a Pull Request on GitHub (Command Line Interface)](https://www.youtube.com/watch?v=nCKdihvneS0)
