@@ -46,6 +46,9 @@ For getting inspiration, I mainly use:
 - [Dribbble](https://dribbble.com/)
 - [designresourc.es](https://designresourc.es/)
 - [viewport-ui.design](https://viewport-ui.design/)
+- [Awwwards](https://www.awwwards.com/)
+
+> Contributed: [imargorsi](https://github.com/imargorsi) | Thank you!
 
 ---
 
