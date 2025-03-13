@@ -13,6 +13,8 @@ It's split into a few parts (step-by-step):
 ## How to participate:
 Just start your comment with whatever part it is from and the tip you wanna give. After reviewing, I will add it to the GitHub page.
 
+> Contributed: [eltociear](https://github.com/eltociear) | Thank you! Corrected the capitalization.
+
 Example:
 ```
 Animations
@@ -41,6 +43,9 @@ That will be our motto before starting any project. **Without a design, you can 
 
 Here are some tools for designing:
 - [Figma](https://www.figma.com/)
+- [Penpot (Figma Alternative)](https://penpot.app/)
+
+> Contributed: [u/SouthboundHog](https://www.reddit.com/user/SouthboundHog/) | Thanks!
 
 For getting inspiration, I mainly use:
 - [Dribbble](https://dribbble.com/)
@@ -60,6 +65,13 @@ Here are a number of more specific design resources:
 - [TailwindCSS Box Shadows](https://ui.aceternity.com/tools/box-shadows)
 - [SVG Pattern Generation](https://www.fffuel.co/)
 
+> Contributed: [lukeweston1234](https://github.com/lukeweston1234) | Thank you!
+
+### What Does the Client want?
+If you are working for a client or a company, make sure to know what the client wants and that both of your views align.
+
+> Contributed: [u/SEOAngle](https://www.reddit.com/user/SEOAngle/) | Very important!
+
 ---
 
 ## 2. Initializing Project
@@ -72,6 +84,12 @@ When initializing your project, you must choose properly the framework you will 
 - [Svelte](https://svelte.dev/) (Fast, simple, performant, although APIs have changed a bit from version to version)
 - [Solid](https://www.solidjs.com/) (Performant signal based framework with easy to understand primatives. Similar DX to React)
 - [Gatsby](https://www.gatsbyjs.com/) (Site generation, Fast page loads, 100/100 lighthouse score)
+- [Nuxt](https://nuxtjs.org/) (Server-Side Rendering, Static page generation, API routes, & more)
+- [Astro](https://astro.build/) (Site generation, Fast page loads, 100/100 lighthouse score)
+
+> Contributed: [u/Fluid_Economics](https://www.reddit.com/user/Fluid_Economics/)
+
+> Contributed: [lukeweston1234](https://github.com/lukeweston1234) | Thank you!
 
 **There isn't a wrong framework** to choose but there is indeed a better one for each of the projects you will do. One may be better than the other for a specific project.
 
@@ -90,6 +108,13 @@ Basically, whether you want your web-app to have other pages like `/about, /cont
 This is crucial when initializing because adding routing will be a pain in the future if you haven't added it from the start.
 
 Again, refer to the documentation of the framework you choose on how to add routing.
+
+### Hot Reloading 
+Hot reloading: See code changes live in the browser without reloading.
+
+This is a feature that is very very important to saving time as it speeds up the development process. Don't forget to implement this.
+
+> Contributed: [u/janlaureys9](https://www.reddit.com/user/janlaureys9/)
 
 ### Styling 
 There are a number of styling options available, teams normally pick some flavor of CSS, SCSS, or TailwindCSS.
@@ -120,6 +145,11 @@ more componentization, or a new utility class to avoid repetition.
     - If you are working on a large vanilla JS project that is not heavily componentized, css classes will scale better.
 - Small Lightweight Projects
     - If your project is small enough, vanilla CSS will likely scale just fine
+
+> Improved by: [lukeweston1234](https://github.com/lukeweston1234) | Thank you!
+
+### Note: 
+> Though tailwind is very popular— it's not bad— it's not what most big Enterprises that use [Angular](https://angular.io/) are all about! - [u/sh0resh0re](https://www.reddit.com/user/sh0resh0re/)
 
 #### CheatSheet 
 Here's a cheatsheet a use a lot when using tailwind: https://nerdcave.com/tailwind-cheat-sheet
@@ -194,6 +224,30 @@ Over-animating is a common mistake that many developers make. I recently made th
 
 Animating things is great but don't overdo it. Stick to simplicity.
 
+### Respect User's Motion Preferences
+Source: [Respecting User's Motion Preferences](https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/)
+
+When adding animations to your site, it's essential to consider users who might be sensitive to motion. Some users experience discomfort or even motion sickness when exposed to excessive animations. The CSS `prefers-reduced-motion` media query lets you check if a user has requested minimal motion through their system settings. By using this media query, you can ensure that animations are only applied if the user hasn't opted for reduced motion.
+
+For example:
+
+```css
+@media (prefers-reduced-motion: no-preference) {
+  .some-element {
+    animation: bounce 1200ms;
+  }
+}
+```
+
+#### Explanation:
+
+- @media (prefers-reduced-motion: no-preference): This media query targets users who have not indicated a preference for reduced motion. In other words, it only applies the enclosed CSS if the user is comfortable with animations.
+- .some-element { animation: bounce 1200ms; }: Inside the media query, you define your animation as usual. In this example, the bounce animation will only run for users who do not have a reduced motion preference.
+
+With this, you can implement animations but still being considerate of all users.
+
+> Contributed: [u/blchava](https://www.reddit.com/user/blchava/)
+
 ### Resources for Animations with cheatsheets
 These two are the most common animation libraries used in web development. It's basically the industry standard.
 - [Framer Motion](https://www.framer.com/motion/) - [Cheatsheet](https://yourdevkit.com/cheat-sheet/framer-motion)
@@ -266,6 +320,9 @@ There are many ways to deploy your website. Here are a few:
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
 - [GitHub Pages](https://pages.github.com/)
+- [Heroku](https://www.heroku.com/)
+
+> Contributed: [u/Fluid_Economics](https://www.reddit.com/user/Fluid_Economics/)
 
 `Add your own thoughts on how to deploy and best practices!`
 
