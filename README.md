@@ -144,17 +144,19 @@ more componentization, or a new utility class to avoid repetition.
 
 #### `Why should I use Tailwind?`
 - Avoiding Unnecessary Seperation of Concerns 
-    - Seperation of concerns is a common principle, but rendering templates requires both HTML and styling. Having both under your fingers enhances productivity. 
+    - The styles are written as classNames on the element you are styling vs. in a separate styles file. Having both HTML and styling in the same file enhances productivity.
 - Scalable Navigation
-    - You longer have to learn the architecture and style guide for every CSS project you are on. You have a consistent pattern that allows you to always know where your styles are located.
+    - With consistent patterns no matter the project you are working in, you always know where your styles are and how to can easily make edits with confidence.
 - Design System Implementation
-    - You can easily implement a consistent design system with the Tailwind config file. This includes fonts, colors, cards, inputs, etc
+    - Design system implementations are as easy as creating a Tailwind config file. Include fonts, colors, cards, inputs, etc.
 - Dev Tooling
-    - You can setup linting to enforce TailwindCSS styles to be in a certain order, creating a consistent shape for your styles
+    - Setup linting to enforce TailwindCSS styles to be in a certain order, creating consistency and alignment for your codebase.
 
 #### `Why shouldn't I use Tailwind`
+- Clutter
+    - Some argue that due to the styles being inline, the added bulk to your compoonents can make it harder to work with. 
 - Legacy code
-    - Convincing a team or large project to start using TailwindCSS will be an uphill battle.
+    - Convincing a team or large project to start using TailwindCSS will be an uphill battle. With any new framework, there will be a learning curve. 
 - Non Componentized Code
     - If you are working on a large vanilla JS project that is not heavily componentized, css classes will scale better.
 - Small Lightweight Projects
@@ -166,7 +168,7 @@ more componentization, or a new utility class to avoid repetition.
 > Though tailwind is very popular— it's not bad— it's not what most big Enterprises that use [Angular](https://angular.io/) are all about! - [u/sh0resh0re](https://www.reddit.com/user/sh0resh0re/)
 
 #### CheatSheet 
-Here's a cheatsheet a use a lot when using tailwind: https://nerdcave.com/tailwind-cheat-sheet
+Here's a cheatsheet I use a lot when using tailwind: https://nerdcave.com/tailwind-cheat-sheet
 
 ---
 
