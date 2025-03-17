@@ -31,7 +31,18 @@ Here's how to:
 - This isn't a **how to guide** on starting web-development, **it's for those who have already started** (1 month+ experience) & want to **improve / discover** ways or **techniques** to make their development process **more efficient.**
 - Let's try to make it as seamless & linear as possible.
 
+This cheat sheet or rather, collection of cheat sheets isn't something you should absolutely follow. It is split into different sections such as designining, styling, SEO, and stuff. **But development is not a single, linear process. You must be able to build things with everything in mind (SEO, styling with responsiveness, and coding with performance)**. Of course, as you progress further into development, you will be optimally and efficiently do these as you build your projects from the start!
+
+> Contributed by: [u/Shiedheda](https://www.reddit.com/user/Shiedheda/) | Paraphrased his/her statement which is absolutely correct!
 ---
+# Useful resources for starting (without reading the whole guide):
+- [Developer Roadmaps](https://roadmap.sh)
+- [HTML/CSS/JS CheatSheet](https://html-css-js.com)
+- [Front-end Checklist (Contains everything this cheat sheet has but concise)](https://frontendchecklist.io)
+
+> Contributed: [u/ExpletiveDeIeted](https://www.reddit.com/user/ExpletiveDeIeted/) | Thanks!
+> Contributed: [u/Marginal_Border](https://www.reddit.com/user/Marginal_Border/) | Thanks!
+> Contributed: [u/TurbulentGoals](https://www.reddit.com/user/TurbulentGoals/) | Thanks!
 
 # Start:
 ## 1. Designing the website
@@ -43,9 +54,12 @@ That will be our motto before starting any project. **Without a design, you can 
 
 Here are some tools for designing:
 - [Figma](https://www.figma.com/)
+    -   [Builder IO - Figma to Code](https://www.figma.com/community/plugin/747985167520967365/builder-io-ai-powered-figma-to-code-react-vue-tailwind-more)
 - [Penpot (Figma Alternative)](https://penpot.app/)
 
 > Contributed: [u/SouthboundHog](https://www.reddit.com/user/SouthboundHog/) | Thanks!
+> Contributed: [TwoOdd3888](https://www.reddit.com/user/TwoOdd3888/) | Thanks!
+
 
 For getting inspiration, I mainly use:
 - [Dribbble](https://dribbble.com/)
@@ -319,12 +333,28 @@ There are many ways to deploy your website. Here are a few:
 
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
+- [Coolify (Cheaper Vercel Alternative)](https://coolify.io/)
 - [GitHub Pages](https://pages.github.com/)
 - [Heroku](https://www.heroku.com/)
 
 > Contributed: [u/Fluid_Economics](https://www.reddit.com/user/Fluid_Economics/)
+> Contributed: [u/imdbere](https://www.reddit.com/user/imdbere/)
 
 `Add your own thoughts on how to deploy and best practices!`
+
+--- 
+
+# Misc
+## Interviews
+
+Here are some sites for preparing for front-end interviews:
+- [Frontend Lead](https://frontendlead.com/)
+- [Leetcode](https://leetcode.com/)
+- [Big Frontend](https://bigfrontend.dev/)
+
+> Contributed: [u/Frontend_Lead](https://www.reddit.com/user/Frontend_Lead/)
+
+`Add your own thoughts on how to prepare for front-end interviews!`
 
 --- 
 > This page is still a work in progress, give your own thoughts on how to improve it!
