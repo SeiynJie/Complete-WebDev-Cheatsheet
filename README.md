@@ -166,7 +166,10 @@ more componentization, or a new utility class to avoid repetition.
 > Though tailwind is very popular— it's not bad— it's not what most big Enterprises that use [Angular](https://angular.io/) are all about! - [u/sh0resh0re](https://www.reddit.com/user/sh0resh0re/)
 
 #### CheatSheet 
+
 Here's a cheatsheet a use a lot when using tailwind: https://nerdcave.com/tailwind-cheat-sheet
+
+For a comprehensive reference that includes the latest Tailwind v4 utilities, check out this cheatsheet: https://kombai.com/tailwind/cheat-sheet/
 
 ---
 
